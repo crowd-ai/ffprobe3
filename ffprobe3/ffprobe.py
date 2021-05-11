@@ -114,7 +114,7 @@ class FFStream:
                     )
                 )
 
-            except ValueError:
+            except (ValueError, ZeroDivisionError):
                 self.__dict__['framerate'] = None
 
     def __repr__(self):

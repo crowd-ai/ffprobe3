@@ -5,12 +5,10 @@ from distutils.core import setup
 setup(
     name='ffprobe3',
     version='0.1.2',
-    description="""
-    Original Project: ffprobe (https://pypi.python.org/pypi/ffprobe)
-
-    A wrapper around ffprobe command to extract metadata from media files.
-
-    This project which is maintained by Dheerendra Rathor is a Python 3 port of original ffprobe.
+    description="""\
+    Original Project: ffprobe (https://pypi.python.org/pypi/ffprobe) \
+    A wrapper around ffprobe command to extract metadata from media files. \
+    This project which is maintained by Dheerendra Rathor is a Python 3 port of original ffprobe.\
     """,
     author='Simon Hargreaves',
     author_email='simon@simon-hargreaves.com',
